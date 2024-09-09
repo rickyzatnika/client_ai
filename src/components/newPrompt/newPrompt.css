@@ -1,0 +1,41 @@
+.endChat {
+  padding-bottom: 90px;
+}
+.newForm {
+  width: 70%;
+  position: absolute;
+  margin: 0px auto;
+  bottom: 0;
+  background-color: #2c2937;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+
+  textarea {
+    background-color: transparent !important;
+    flex: 1;
+    border: none !important;
+    outline: none !important;
+    color: #ddd;
+    padding: 18px;
+    font-size: 16px;
+  }
+  button,
+  label {
+    border-radius: 50%;
+    background-color: #605e68;
+    border: none !important;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
